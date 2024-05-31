@@ -13,7 +13,7 @@ In Jinja2, templates can be extended using the {% extends %} template tag. In th
 
 Blocks are used to define areas in the base template that child templates can override. In this example, ```base.html``` has two blocks: title and content. These blocks are overridden in ```index.html```.
 The render_template function is used to render a template and return the rendered HTML to the client. In this example, the ```index.html``` template is rendered and returned when a request is made to the root route.
-When you run the application with the command python ```app.py```, it will start the development server and your application will be accessible on http://localhost:5000/.
+When you run the application with the command ```python app.py```, it will start the development server and your application will be accessible on http://localhost:5000/.
 
 ## Instructions:
 
@@ -54,7 +54,7 @@ from flask import render_template
 def index():
     return render_template('index.html')
 ```
-Run the application by running the command python ```app.py``` in your command line.
+Run the application by running the command ```python app.py``` in your command line.
 Visit http://localhost:5000/ in your web browser to see the message "Welcome to our website" with a title of "Home" displayed.
 
 more: 
