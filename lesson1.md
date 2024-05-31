@@ -1,12 +1,12 @@
-Lesson 1: Introduction to Flask
+# Lesson 1: Introduction to Flask
 
-Objective:
+## Objective:
 
-    Understand what Flask is and its purpose
-    Set up a basic Flask application
-    Handle routes and render templates
+Understand what Flask is and its purpose
+Set up a basic Flask application
+Handle routes and render templates
 
-Instructions:
+## Instructions:
 
 Install Flask by running the command ```pip install Flask``` in your command line.
 Create a new file called app.py and import Flask using the following code:
@@ -38,7 +38,7 @@ if __name__ == '__main__':
 Run the application by running the command python app.py in your command line.
 Visit http://localhost:5000/ in your web browser to see the message "Hello, World!" displayed.
 
-Explanation:
+## Explanation:
 
 Flask is a micro web framework for Python that allows developers to easily create web applications. It is lightweight, easy to learn, and easy to get started.
 The first step in creating a Flask application is to import the Flask class from the flask module.
